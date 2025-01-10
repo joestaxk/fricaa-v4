@@ -17,7 +17,7 @@ export const Footer = () => {
                 <div className="flex justify-between items-center flex-wrap w-full">
                     <div className="md:space-y-3 space-y-2">
                         <h2 className='md:text-[1.2rem] text-[1rem] font-semibold'>Download Fricaa</h2>
-                        <ul>
+                        <ul className='text-gray-300'>
                             <li>
                                 <a href="" className='flex items-center text-sm capitalize'>
                                     Apple IOS
@@ -33,7 +33,7 @@ export const Footer = () => {
 
                     <div className="md:space-y-3 space-y-2">
                         <h2 className='md:text-[1.2rem] text-[1rem] font-semibold'>Socials</h2>
-                        <ul>
+                        <ul className='text-gray-300'>
                             <li>
                                 <a href="" className='flex items-center text-sm capitalize'>
                                     Instagram
@@ -49,7 +49,7 @@ export const Footer = () => {
 
                     <div className="md:space-y-3 space-y-2">
                         <h2 className='md:text-[1.2rem] text-[1rem] font-semibold'>Useful pages</h2>
-                        <ul>
+                        <ul className='text-gray-300'>
                             <li>
                                 <a href="" className='flex items-center text-sm capitalize'>
                                     terms and conditions

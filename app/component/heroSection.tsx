@@ -75,7 +75,7 @@ export const HeroSection = () => {
 
     })
     return (
-        <div className='gsap-scale lg:h-screen h-[80vh] relative flex justify-center  overflow-hidden w-full after:content after:h-full after:absolute after:inset-0 after:z-[5] after:bg-gradient-to-t after:from-black after:to-[30%] after:to-transparent after:block '>
+        <div className='gsap-scale h-screenrelative flex justify-center  overflow-hidden w-full after:content after:h-full after:absolute after:inset-0 after:z-[5] after:bg-gradient-to-t after:from-black after:to-[30%] after:to-transparent after:block '>
             <div className="2xl:w-[1500px] w-[1200px] max-w-full relative xl:flex lg:block flex flex-col">
                 <div className="gsap-herotext gsap-goIn 2xl:text-[8rem]  xl:text-[5.5rem] lg:text-[7rem] leading-[1] z-[1] xl:text-right translate-y-[25vh] xl:left-[-10vw] right-[20vw] w-fit absolute opacity-0 lg:block hidden">
                     <div className="hidden xl:block">Connect</div>

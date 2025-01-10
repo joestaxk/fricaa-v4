@@ -116,7 +116,7 @@ export const Section4 = () => {
             </div>
 
             <div className=" mt-[5rem] flex items-center flex-col space-y-2">
-                <div className="roboto_slab lg:text-[5rem] text-[3rem] font-semibold text-center leading-[1]">
+                <div className="roboto_slab lg:text-[5rem] sm:text-[3rem] text-[2rem] font-semibold text-center leading-[1]">
                     <div className="gsap-section4 opacity-0">OUR</div>
                     <div className="gsap-section4 opacity-0">COMMUNITY</div>
                 </div>

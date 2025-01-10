@@ -34,8 +34,8 @@ export const Section3 = () => {
     })
     return (
         <div className=' w-full flex justify-center'>
-            <div className="relative w-[900px] h-[1400px] max-w-full flex items-center flex-col pt-44">
-                <div className="roboto_slab lg:text-[5rem] text-[4rem] font-[600] uppercase text-center leading-[1]">
+            <div className="relative w-[900px] sm:h-[1400px] h-[1200px] max-w-full flex items-center flex-col pt-44">
+                <div className="roboto_slab lg:text-[5rem] md:text-[4rem] text-[2.8rem] font-[600] uppercase text-center leading-[1]">
                     <div className="gsap-section3text opacity-0">Expand</div>
                     <div className="gsap-section3text opacity-0">Your world</div>
                     <div className="gsap-section3text opacity-0">Meet</div>
@@ -45,14 +45,14 @@ export const Section3 = () => {
                 </div>
 
                 <div className="relative overflow-hidden translate-y-[30vh] gsap-mockup select-none">
-                    <img src="/frame.svg" alt="" />
+                    <img src="/frame.svg" alt=""  className='min-w-[300px]'/>
                     <div className="absolute md:block hidden rounded-[9%] w-[300px] h-[620px] top-6 left-5  blur-md saturate-200 inset-0 z-[-1] bg-gradient-to-l group-hover:bg-gradient-to-r from-[#EF3FE8] via-[#F94A3F] to-[#E4317D] transition-all duration-200"></div>
-                    <video className='absolute top-6 left-5 w-[300px] h-[620px] rounded-[9%] select-none' playsInline loop muted autoPlay>
+                    <video className='absolute top-6 left-5 w-[260px] h-[540px] xs:w-[300px] xs:h-[620px] rounded-[9%] select-none' playsInline loop muted autoPlay>
                         <source src='https://framerusercontent.com/assets/UDIqZrNAE2Co85ZHBf6G2BdAkVw.mp4' />
                     </video>
                     <div className="asboulute inset-0 bg-black z-10"></div>
                 </div>
-                <div className="absolute bottom-[50%] w-full">
+                <div className="absolute bottom-[50%] w-full sm:block hidden">
 
                     {
                         CHAT_PROPS.map((v, i) => (
