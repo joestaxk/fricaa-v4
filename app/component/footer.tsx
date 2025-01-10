@@ -14,7 +14,7 @@ export const Footer = () => {
                 </div>
 
 
-                <div className="flex justify-between items-center flex-wrap w-full">
+                <div className="flex justify-between items-center flex-wrap w-full gap-5">
                     <div className="md:space-y-3 space-y-2">
                         <h2 className='md:text-[1.2rem] text-[1rem] font-semibold'>Download Fricaa</h2>
                         <ul className='text-gray-300'>
