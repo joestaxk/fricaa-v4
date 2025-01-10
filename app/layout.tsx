@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: "400",
+  variable: "--font-poppins"
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const roboto_slab = Roboto_Slab({
   subsets: ["latin"],
+  variable: "--font-roboto-slab"
 });
 
 export const metadata: Metadata = {
@@ -22,10 +23,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${poppins.variable} ${roboto_slab.variable} antialiased`}
       >
         {children}
       </body>
