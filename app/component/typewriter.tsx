@@ -59,7 +59,7 @@ export const AnimatedTypewriterText = ({
   const textRef = useRef<HTMLSpanElement>(null);
   
   const safeText = text?.toString() || '';
-  const { displayText, isTypingComplete } = useTypewriter(safeText, speed);
+  const { displayText } = useTypewriter(safeText, speed);
 
   useGSAP(() => {
     if (!containerRef.current || !textRef.current) return;
