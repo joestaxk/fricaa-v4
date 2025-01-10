@@ -47,7 +47,7 @@ export const Section5 = () => {
     }, []);
     return (
         <div className="flex justify-center items-center">
-            <div className="mt-[5rem] flex flex-col lg:flex-col items-center lg:justify-between gap-[5rem] md:min-h-[500px] xl:w-[1200px] lg:w-[1024px] space-y-2">
+            <div className="mt-[5rem] flex lg:flex-row flex-col items-center lg:justify-between gap-[5rem] md:min-h-[500px] xl:w-[1200px] lg:w-[1024px] space-y-2">
                 <div className="roboto_slab lg:text-[5rem] sm:text-[3rem]  text-[2rem] font-semibold lg:text-left text-center gsap-section5 leading-[1]">
                     <div className="gsap-section5">OUR</div>
                     <div className="gsap-section5">MISSION</div>
