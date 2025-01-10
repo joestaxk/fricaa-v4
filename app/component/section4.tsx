@@ -2,18 +2,18 @@
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import React, { useEffect, useRef } from 'react';
+import React, { RefObject, useEffect, useRef } from 'react';
 
 export const Section4 = () => {
-    const scrollRef = useRef<HTMLDivElement>(null);
-    const scrollRef2 = useRef<HTMLDivElement>(null);
-    const containerRef = useRef<HTMLDivElement>(null);
-    const containerRef2 = useRef<HTMLDivElement>(null);
+    const scrollRef = useRef(null);
+    const scrollRef2 = useRef(null);
+    const containerRef = useRef(null);
+    const containerRef2 = useRef(null);
 
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
 
-        function animateScroll(scrollRef: any, containerRef: any, opposite?: boolean) {
+        function animateScroll(scrollRef: RefObject<HTMLDivElement|null>, containerRef: RefObject<HTMLDivElement|null>, opposite?: boolean) {
             if (!scrollRef.current) return;
 
             const width = window.innerWidth;

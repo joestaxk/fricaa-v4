@@ -1,6 +1,6 @@
 import { AnimatedTypewriterText } from "./typewriter"
 
-export const FakeChats = ({ imgSrc, user, message, i }: any) => {
+export const FakeChats = ({ imgSrc, user, message, i }: {imgSrc: string, user: string, message: string, i: number}) => {
     return (
         <div
             className={`

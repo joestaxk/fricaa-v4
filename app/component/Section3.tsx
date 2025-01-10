@@ -2,7 +2,7 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import React, { useRef } from 'react'
+import React from 'react'
 import { CHAT_PROPS } from '../utils/constants';
 import { FakeChats } from './fakeChats';
 
